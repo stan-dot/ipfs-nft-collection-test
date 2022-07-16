@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="452px" preserveAspectRatio="none" style="width:711px;height:452px;" version="1.1" viewBox="0 0 711 452" width="711px" zoomAndPan="magnify"><defs/><g><!--MD5=[a6f11bb19cee6b13000111f5ad685e8b]
+cluster Dependencies--><path d="M107.1347,358 L209.1347,358 A4.5,4.5 0 0 1 212.1347,361 L219.1347,377.9688 L507.135,377.9688 A3,3 0 0 1 510.135,380.9688 L510.135,437 A3,3 0 0 1 507.135,440 L107.1347,440 A3,3 0 0 1 104.1347,437 L104.1347,361 A3,3 0 0 1 107.1347,358 " fill="#FFFFFF" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="104.1347" x2="219.1347" y1="377.9688" y2="377.9688"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="102" x="108.1347" y="371.1387">Dependencies</text><!--MD5=[13dafc6f8dc162372e0dde15e2ed267e]
+entity @nestjs--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #383838; stroke-width: 1.0;" width="69" x="204.635" y="390"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="199.635" y="395"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="199.635" y="413.9688"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="49" x="214.635" y="411.1387">@nestjs</text><!--MD5=[6d151e53a42aadf92577082572a20d90]
+entity express--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #383838; stroke-width: 1.0;" width="70" x="120.135" y="390"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="115.135" y="395"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="115.135" y="413.9688"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="50" x="130.135" y="411.1387">express</text><!--MD5=[c7132ba8704909fee55a902054646ee0]
+entity node-json-db--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #383838; stroke-width: 1.0;" width="102" x="392.135" y="390"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="387.135" y="395"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="387.135" y="413.9688"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="82" x="402.135" y="411.1387">node-json-db</text><!--MD5=[5daa5344ca711630fb5c4e0527447608]
+entity uint8arrays--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #383838; stroke-width: 1.0;" width="90" x="288.135" y="390"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="283.135" y="395"/><rect fill="#F8F8F8" height="5" style="stroke: #383838; stroke-width: 1.0;" width="10" x="283.135" y="413.9688"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="70" x="298.135" y="411.1387">uint8arrays</text><!--MD5=[020f95b8b4c1359fa977b11c18abe2be]
+entity _app_controller--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="106" x="217.135" y="69"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="86" x="227.135" y="90.1387">app.controller</text><!--MD5=[a2785d03199c592de6063576bb7e3eae]
+entity _app_module--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="92" x="367.135" y="8"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="72" x="377.135" y="29.1387">app.module</text><!--MD5=[e43281efa73d4bf6fe69bf8688402c40]
+entity _app_service--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="92" x="510.135" y="130"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="72" x="520.135" y="151.1387">app.service</text><!--MD5=[975ce3ce6c7fed6d8ca8d6459faf7b63]
+entity _file_data_dto--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="96" x="469.135" y="252"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="76" x="479.135" y="273.1387">file-data.dto</text><!--MD5=[0e24a8ae97e4209f5e91ed58e0328b9b]
+entity _file_data_interface--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="130" x="336.135" y="191"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="110" x="346.135" y="212.1387">file-data.interface</text><!--MD5=[1744309afb4bbcd94907bf53f5a029ad]
+entity _ipfs_data_dto--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="100" x="355.135" y="252"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="80" x="365.135" y="273.1387">ipfs-data.dto</text><ellipse cx="176.1766" cy="24.8774" fill="#F8F8F8" rx="27.0416" ry="12.8774" style="stroke: #383838; stroke-width: 0.5;"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="34" x="159.1766" y="28.3618">main</text><!--MD5=[6181f4c45f746de5d343ffc1a4283c61]
+entity _metadata_dto--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="105" x="235.635" y="252"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="85" x="245.635" y="273.1387">metadata.dto</text><!--MD5=[c29ea5e888e489ea9258b1206c44f136]
+entity _set_metadata_dto--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="130" x="118.135" y="191"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="110" x="128.135" y="212.1387">set-metadata.dto</text><!--MD5=[88ee622ce2454d891f3be16b51de3768]
+entity _upload_ipfs_dto--><rect fill="#F8F8F8" height="33.9688" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="113" x="47.6347" y="252"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="93" x="57.6347" y="273.1387">upload-ipfs.dto</text><!--MD5=[88d843512fd662d75fa53be29c608c43]
+link _app_controller to @nestjs--><path d="M271.728,103.244 C273.646,130.044 274.504,184.576 255.135,225 C247.801,240.304 234.629,236.321 228.135,252 C222.352,265.961 227.444,270.905 228.135,286 C229.716,320.584 233.85,360.6 236.575,384.5736 " fill="none" id="_app_controller-&gt;@nestjs" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="237.167,389.7284,240.1133,380.3306,236.5961,384.7611,232.1656,381.244,237.167,389.7284" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[ca1a2c2b1cf7223be4312272bea36583]
+link _app_controller to _app_service--><path d="M323.165,95.594 C369.757,103.469 439.262,116.004 499.135,130 C500.996,130.435 502.887,130.891 504.794,131.363 " fill="none" id="_app_controller-&gt;_app_service" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="509.871,132.646,502.1263,126.5617,505.0236,131.4202,500.165,134.3175,509.871,132.646" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[c05486a518bf7287fc81c050cfbcfee5]
+link _app_controller to express--><path d="M217.114,95.244 C189.592,101.448 156.512,112.075 131.135,130 C75.8831,169.026 70.3198,191.464 40.1347,252 C21.5555,289.261 -8.4157,307 14.1347,342 C36.1786,376.2142 81.4652,392.3442 114.793,399.8133 " fill="none" id="_app_controller-&gt;express" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="120.033,400.9392,112.0737,395.1384,115.1445,399.8892,110.3937,402.96,120.033,400.9392" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[0ec60e2051e9cb58e44535994a9a3295]
+link _app_controller to _file_data_dto--><path d="M319.702,103.152 C364.116,119.608 428.897,148.739 473.135,191 C489.58,206.711 501.697,229.928 509.005,246.758 " fill="none" id="_app_controller-&gt;_file_data_dto" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="511.118,251.761,511.3003,241.9138,509.1722,247.1551,503.9309,245.0271,511.118,251.761" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[237dcf59fe27efcafb28a64b22f87c17]
+link _app_controller to _set_metadata_dto--><path d="M258.401,103.184 C242.77,124.745 215.105,162.903 198.021,186.467 " fill="none" id="_app_controller-&gt;_set_metadata_dto" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="194.96,190.689,203.4815,185.7511,197.8952,186.6412,197.005,181.0548,194.96,190.689" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[1115801dad4b145e844c026e1d22a8d8]
+link _app_controller to _upload_ipfs_dto--><path d="M225.886,103.11 C188.508,119.231 137.044,147.884 111.135,191 C101.1336,207.643 100.1995,230.061 101.2791,246.415 " fill="none" id="_app_controller-&gt;_upload_ipfs_dto" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="101.7123,251.712,104.9661,242.4162,101.3051,246.7286,96.9927,243.0676,101.7123,251.712" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[09f1cede387c8b57381f3763a6209ab9]
+link _app_module to @nestjs--><path d="M459.29,37.411 C505.049,51.273 573.345,79.35 609.135,130 C649.441,187.042 655.972,221.941 628.135,286 C585.239,384.7123 450.836,333.294 369.135,342 C349.609,344.081 298.282,340.432 281.135,350 C266.863,357.964 255.995,373.0149 248.893,385.509 " fill="none" id="_app_module-&gt;@nestjs" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="246.448,389.9785,254.2774,384.0036,248.8483,385.5923,247.2595,380.1631,246.448,389.9785" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[a71c3262f75d80357b2db069d5e6edfd]
+link _app_module to _app_controller--><path d="M374.059,42.122 C355.458,49.797 333.142,59.004 313.966,66.916 " fill="none" id="_app_module-&gt;_app_controller" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="309.163,68.897,319.0083,69.1613,313.7849,66.9897,315.9566,61.7663,309.163,68.897" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[d1256d5fd64c92f928d243e258fa0e7f]
+link _app_module to _app_service--><path d="M432.42,42.184 C458.433,64.013 504.721,102.856 532.706,126.34 " fill="none" id="_app_module-&gt;_app_service" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="536.698,129.689,532.3755,120.8394,532.868,126.4747,527.2327,126.9673,536.698,129.689" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[f29573821a301768b566b74b3d090a3f]
+link _app_service to @nestjs--><path d="M563.169,164.349 C572.315,187.129 587.135,229.914 587.135,268 C587.135,268 587.135,268 587.135,314 C587.135,382.469 340.478,315.848 281.135,350 C267.063,358.098 256.24,372.9945 249.108,385.3886 " fill="none" id="_app_service-&gt;@nestjs" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="246.647,389.8243,254.5099,383.8935,249.0719,385.4517,247.5137,380.0136,246.647,389.8243" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[e3a614edc4b8709ec40f3924c20c7c40]
+link _app_service to _file_data_dto--><path d="M550.875,164.184 C543.926,185.566 531.672,223.271 524,246.877 " fill="none" id="_app_service-&gt;_file_data_dto" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="522.436,251.689,529.0227,244.3668,523.9819,246.934,521.4147,241.8932,522.436,251.689" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[17adca26418b4666989dafcd3448242f]
+link _app_service to _file_data_interface--><path d="M513.78,164.122 C493.364,171.893 468.819,181.236 447.86,189.214 " fill="none" id="_app_service-&gt;_file_data_interface" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="443.169,191,453.0032,191.5369,447.842,189.2214,450.1574,184.0601,443.169,191" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[dab56457f4340e2f12cb10bef13d15f9]
+link _app_service to _metadata_dto--><path d="M509.836,152.043 C452.009,157.886 357.242,170.318 329.135,191 C310.514,204.702 299.522,229.441 293.682,247.183 " fill="none" id="_app_service-&gt;_metadata_dto" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="292.169,251.986,298.6873,244.6028,293.6706,247.2168,291.0566,242.2002,292.169,251.986" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[e573a66e751e754032f1a1343445afab]
+link _app_service to node-json-db--><path d="M595.904,164.015 C607.931,170.682 620.071,179.583 628.135,191 C667.607,246.89 699.037,287.149 658.135,342 C639.067,367.5705 556.373,386.6211 499.285,397.0262 " fill="none" id="_app_service-&gt;node-json-db" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="494.188,397.9446,503.7542,400.287,499.1089,397.0589,502.3371,392.4136,494.188,397.9446" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[22a2c9a5da055d1d5870de3a17930a6e]
+link _app_service to uint8arrays--><path d="M576.089,164.218 C584.014,171.62 592.553,180.969 598.135,191 C615.274,221.801 617.135,232.751 617.135,268 C617.135,268 617.135,268 617.135,314 C617.135,329.039 611.289,334.71 598.135,342 C577.42,353.48 406.662,340.128 385.135,350 C368.666,357.5526 354.97,372.9831 345.775,385.7373 " fill="none" id="_app_service-&gt;uint8arrays" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="342.832,389.9449,351.2684,384.8629,345.698,385.8478,344.7131,380.2773,342.832,389.9449" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[3cfe8f558ea88e4aa03995da71523802]
+link _file_data_interface to _file_data_dto--><path d="M432.832,225.122 C447.665,232.667 465.411,241.692 480.786,249.512 " fill="none" id="_file_data_interface-&gt;_file_data_dto" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="485.475,251.897,479.2666,244.2514,481.0184,249.6301,475.6396,251.3819,485.475,251.897" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[4c13eda246be8268d0034a50e0b5b919]
+link _file_data_interface to _ipfs_data_dto--><path d="M402.228,225.122 C402.677,231.756 403.205,239.535 403.686,246.633 " fill="none" id="_file_data_interface-&gt;_ipfs_data_dto" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="404.043,251.897,407.427,242.6478,403.7059,246.9084,399.4452,243.1872,404.043,251.897" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[69686ee23c084feb3c07c935f1588cea]
+link _file_data_interface to _metadata_dto--><path d="M370.257,225.122 C355.807,232.667 338.521,241.692 323.543,249.512 " fill="none" id="_file_data_interface-&gt;_metadata_dto" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="318.975,251.897,328.8044,251.2776,323.4073,249.583,325.102,244.1859,318.975,251.897" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[5191f4f145c944004aa0f59ba1611530]
+link <b>main</b> to @nestjs--><path d="M153.528,32.379 C111.404,45.803 25.1347,81.206 25.1347,146 C25.1347,146 25.1347,146 25.1347,314 C25.1347,353.05 164.191,329.032 197.135,350 C210.74,358.6593 221.526,373.3889 228.759,385.5685 " fill="none" id="&lt;b&gt;main&lt;/b&gt;-&gt;@nestjs" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="231.262,389.9244,230.2452,380.1282,228.7704,385.5894,223.3092,384.1147,231.262,389.9244" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[49d82cc179279774c0f16d837713b4e0]
+link <b>main</b> to _app_module--><path d="M203.445,25 C256.213,25 308.981,25 361.749,25 " fill="none" id="&lt;b&gt;main&lt;/b&gt;-&gt;_app_module" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="366.856,25,357.856,21,361.856,25,357.856,29,366.856,25" style="stroke: #000000; stroke-width: 1.0;"/><!--MD5=[55382a5fddb2b09f091a3ab4e10ef712]
+link _metadata_dto to @nestjs--><path d="M282.321,286.135 C273.443,310.776 256.506,357.7864 246.687,385.0374 " fill="none" id="_metadata_dto-&gt;@nestjs" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="244.94,389.8859,251.754,382.7747,246.6349,385.1819,244.2276,380.0628,244.94,389.8859" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[036abe286b6e16a27cf49607fde4a79f]
+link _set_metadata_dto to @nestjs--><path d="M183.469,225.019 C184.427,250.477 188.104,301.441 202.135,342 C207.516,357.5556 216.791,373.5878 224.709,385.7149 " fill="none" id="_set_metadata_dto-&gt;@nestjs" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="227.555,389.998,225.9057,380.2882,224.7879,385.8335,219.2426,384.7156,227.555,389.998" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[2e80f693278d231322bf99652bb818d9]
+link _set_metadata_dto to _metadata_dto--><path d="M211.826,225.122 C225.137,232.601 241.039,241.537 254.872,249.31 " fill="none" id="_set_metadata_dto-&gt;_metadata_dto" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="259.478,251.897,253.5914,244.0009,255.1191,249.4476,249.6724,250.9752,259.478,251.897" style="stroke: #000000; stroke-width: 0.5;"/><!--MD5=[6e73c88cb12762c02e0d417d33da84a1]
+link _upload_ipfs_dto to @nestjs--><path d="M115.599,286.294 C127.852,302.577 148.708,327.253 172.135,342 C182.007,348.215 187.63,343.236 197.135,350 C209.984,359.1443 220.599,373.4082 227.943,385.2514 " fill="none" id="_upload_ipfs_dto-&gt;@nestjs" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="230.692,389.822,229.4819,380.0478,228.1153,385.5371,222.626,384.1704,230.692,389.822" style="stroke: #000000; stroke-width: 0.5;"/><script type="text/plantuml"><![CDATA[MD5=[ad719cb1915dbdf425a557a88559c3da]
+@startuml
+
+scale max 1920 width
+top to bottom direction
+
+skinparam nodesep 14
+skinparam ranksep 27
+skinparam monochrome true
+skinparam shadowing false
+skinparam defaultFontName Tahoma
+skinparam defaultFontSize 12
+skinparam roundCorner 6
+skinparam dpi 150
+skinparam arrowColor black
+skinparam arrowThickness 0.5
+skinparam packageTitleAlignment left
+
+skinparam usecase {
+  borderThickness 0.5
+}
+
+skinparam rectangle {
+  borderThickness 0.5
+}
+
+skinparam component {
+  borderThickness 1
+}
+
+
+rectangle "app.controller" as _app_controller
+rectangle "app.module" as _app_module
+rectangle "app.service" as _app_service
+rectangle "file-data.dto" as _file_data_dto
+rectangle "file-data.interface" as _file_data_interface
+rectangle "ipfs-data.dto" as _ipfs_data_dto
+(<b>main</b>)
+rectangle "metadata.dto" as _metadata_dto
+rectangle "set-metadata.dto" as _set_metadata_dto
+rectangle "upload-ipfs.dto" as _upload_ipfs_dto
+
+package "Dependencies" {
+  [@nestjs]
+  [express]
+  [node-json-db]
+  [uint8arrays]
+}
+
+_app_controller ---> [@nestjs]
+_app_controller --> _app_service
+_app_controller ---> [express]
+_app_controller --> _file_data_dto
+_app_controller --> _set_metadata_dto
+_app_controller --> _upload_ipfs_dto
+_app_module ---> [@nestjs]
+_app_module --> _app_controller
+_app_module --> _app_service
+_app_service ---> [@nestjs]
+_app_service --> _file_data_dto
+_app_service --> _file_data_interface
+_app_service --> _metadata_dto
+_app_service ---> [node-json-db]
+_app_service ---> [uint8arrays]
+_file_data_interface --> _file_data_dto
+_file_data_interface --> _ipfs_data_dto
+_file_data_interface --> _metadata_dto
+(<b>main</b>) ---[thickness=1]> [@nestjs]
+(<b>main</b>) -[thickness=1]> _app_module
+_metadata_dto ----> [@nestjs]
+_set_metadata_dto ----> [@nestjs]
+_set_metadata_dto --> _metadata_dto
+_upload_ipfs_dto ----> [@nestjs]
+
+@enduml
+
+
+' View and edit on https://arkit.pro
+]]></script></g></svg>
