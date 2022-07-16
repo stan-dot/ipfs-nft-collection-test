@@ -1,3 +1,10 @@
+
+# from previous lessons
+- [ ] Implement a feature for importing a wallet by pasting a seed phrase of private key as an alternative to creating a new one
+
+
+
+# from lesson 16
 - [ ] Build a web server and API for providing the features using the RESTful architecture
 - [ ] Run a local node of IPFS
 - [ ] Upload 10 images to this node
