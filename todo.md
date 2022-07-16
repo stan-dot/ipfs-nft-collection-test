@@ -8,7 +8,7 @@
 - [ ] Build a web server and API for providing the features using the RESTful architecture
 
 # IPFS tasks
-- [ ] Run a local node of IPFS
+- [x] Run a local node of IPFS
 - [ ] Upload 10 images to this node
 
 # descriptions and API
