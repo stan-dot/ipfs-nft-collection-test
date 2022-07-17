@@ -1,13 +1,9 @@
-import { HttpClient } from '@angular/common/http';
-import { Injectable } from '@angular/core';
 import { ethers } from 'ethers';
-import { Observable } from 'rxjs';
-import { environment } from 'src/environments/environment';
 import { MintRequestDto } from '../dtos/mint-request.dto';
+import { environment } from '../environments/environment';
 
-@Injectable({
-  providedIn: 'root',
-})
+// todo convert to axios
+
 export class ApiService {
   apiUrl = environment.apiAddress;
 

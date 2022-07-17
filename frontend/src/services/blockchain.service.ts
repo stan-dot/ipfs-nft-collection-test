@@ -3,9 +3,7 @@ import { environment } from 'src/environments/environment';
 import { ethers, EventFilter } from 'ethers';
 import TokenContract from 'src/assets/contracts/Token.json';
 
-@Injectable({
-  providedIn: 'root',
-})
+
 export class BlockchainService {
   provider: ethers.providers.BaseProvider;
   userWallet: ethers.Wallet;
