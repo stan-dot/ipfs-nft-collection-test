@@ -91,6 +91,28 @@ export class AppController {
     }
   }
 
+  @Get('metadata/:id')
+  @ApiOperation({
+    summary: 'Get element metadata by id',
+    description: 'Gets metadata of the element at the requested index',
+  })
+  @ApiResponse({
+    status: 200,
+    description: 'metadata',
+  })
+  @ApiResponse({
+    status: 503,
+    description: 'The server is not configured correctly',
+    type: HttpException,
+  })
+  async getMetadata(@Param('id') id: number) {
+    try {
+      return this.appService.get(id);
+    } catch (error) {
+      throw new HttpException(error.message, 503);
+    }
+  }
+
   @Get('file/:id')
   @ApiOperation({
     summary: 'Get file of element by id from server storage',

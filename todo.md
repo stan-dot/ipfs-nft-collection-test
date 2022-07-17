@@ -5,7 +5,7 @@
 
 ## descriptions and API
 - [x] Create JSON metadata descriptions for all 10 images
-- [ ] Make a GET method in the API to get the metadata by id
+- [x] Make a GET method in the API to get the metadata by id
 
 ## NFT bit
 - [ ] write Soldity contract with tokens implementing ERC20

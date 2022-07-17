@@ -61,6 +61,10 @@ export class AppService {
     return this.db.getData(`/${fileId}`);
   }
 
+  getMetadata(fileId: number) {
+    return this.db.getData(`/${fileId}/metadata`);
+  }
+
   getFileStream(filename: string) {
     const fileStream = createReadStream(`../upload/${filename}`);
     return new StreamableFile(fileStream);
