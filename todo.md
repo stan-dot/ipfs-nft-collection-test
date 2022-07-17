@@ -18,7 +18,7 @@
 
 ## frontend
 - [ ] create a React frontend
-- [ ]  provide wallet functions in the frontend to buy, transfer, allow, transfer from and burn NFTs
+- [ ] provide wallet functions in the frontend to buy, transfer, allow, transfer from and burn NFTs
 - [ ] Implement a feature for importing a wallet by pasting a seed phrase of private key as an alternative to creating a new one
 
 ### substeps for the frontend
