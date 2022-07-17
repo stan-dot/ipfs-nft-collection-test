@@ -1,6 +1,6 @@
-import { FileDataDto } from 'src/dtos/file-data.dto';
-import { IpfsDataDto } from 'src/dtos/ipfs-data.dto';
-import { MetadataDto } from 'src/dtos/metadata.dto';
+import { FileDataDto } from '../dtos/file-data.dto';
+import { IpfsDataDto } from '../dtos/ipfs-data.dto';
+import { MetadataDto } from '../dtos/metadata.dto';
 
 export class FileData {
   constructor(

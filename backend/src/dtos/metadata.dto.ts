@@ -6,7 +6,7 @@ export class MetadataDto {
     description: 'Name of this object',
     examples: ['Foo', 'Bar', 'Steven'],
   })
-  name: string;
+  name?: string;
   @ApiProperty({
     required: false,
     description: 'Description for this object',

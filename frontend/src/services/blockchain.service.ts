@@ -1,7 +1,6 @@
-import { Injectable } from '@angular/core';
-import { environment } from 'src/environments/environment';
 import { ethers, EventFilter } from 'ethers';
-import TokenContract from 'src/assets/contracts/Token.json';
+import TokenContract from '../assets/contracts/NFTCollection.json';
+import { environment } from '../environments/environment';
 
 
 export class BlockchainService {

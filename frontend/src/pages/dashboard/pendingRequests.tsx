@@ -1,6 +1,8 @@
 import React, { ReactElement } from "react";
+import { MINIMUM_CONFIRMATIONS } from "./MINIMUM_CONFIRMATIONS";
+import { Tx } from "./Tx.type";
 
-export const pendingRequests = (props: { tx: any }): ReactElement => <div>
+export const pendingRequests = (props: { txs: Tx[] }): ReactElement => <div>
   <h2 className="mt-2 mb-4">Pending requests</h2>
   <table className="table">
     <thead>
@@ -12,11 +14,16 @@ export const pendingRequests = (props: { tx: any }): ReactElement => <div>
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td>update</td>
-        <td>hash</td>
-        <td>ongoing?"...": tx.confirmations < /> 5?tx.confirmations: "5+" </td>
-      </tr>
+      {
+        props.txs.map((t: Tx) => {
+          const displayedConfirmationsCount = t.updateOngoing ? "..." : t.confirmations > MINIMUM_CONFIRMATIONS ? t.confirmations : `${MINIMUM_CONFIRMATIONS}+`;
+          return <tr>
+            <td>{t.amount}</td>
+            <td>{t.hash}</td>
+            <td>{displayedConfirmationsCount} </td>
+          </tr>
+        })
+      }
     </tbody>
   </table>
 </div>;
