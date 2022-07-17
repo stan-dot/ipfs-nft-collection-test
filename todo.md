@@ -4,7 +4,7 @@
 - [x] Upload 10 images to this node
 
 ## descriptions and API
-- [ ] Create JSON metadata descriptions for all 10 images
+- [x] Create JSON metadata descriptions for all 10 images
 - [ ] Make a GET method in the API to get the metadata by id
 
 ## NFT bit

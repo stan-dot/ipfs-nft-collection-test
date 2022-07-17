@@ -5,10 +5,9 @@ import { Config } from 'node-json-db/dist/lib/JsonDBConfig';
 import { FileDataDto } from './dtos/file-data.dto';
 import { MetadataDto } from './dtos/metadata.dto';
 import { FileData } from './schemas/file-data.interface';
-import { create } from 'ipfs-http-client';
+import { create, IPFSHTTPClient } from 'ipfs-http-client';
 import { createReadStream } from 'fs';
 import { concat as uint8ArrayConcat } from 'uint8arrays/concat';
-import { IPFSHTTPClient } from 'ipfs-http-client/dist/src/types';
 
 const DB_PATH = '../db/db.json';
 

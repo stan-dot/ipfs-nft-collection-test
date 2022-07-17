@@ -8,9 +8,9 @@ async function bootstrap() {
   const port = 3000;
   // add swagger
   const swaggerOptions = new DocumentBuilder()
-    .setTitle('Lesson 16 Project')
-    .setVersion('1.0.0')
-    .setDescription('Encode Club Bootcamp June Project for Lesson 16')
+    .setTitle('test1')
+    .setVersion('0.1.0')
+    .setDescription('api for the landscape nft collection')
     .build();
   const document = SwaggerModule.createDocument(app, swaggerOptions);
   SwaggerModule.setup('docs', app, document);
