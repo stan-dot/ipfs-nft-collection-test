@@ -10,7 +10,7 @@ export class SetMetadataDto {
   @ApiProperty({
     required: true,
     description: 'File metadata',
-    type: MetadataDto
+    type: MetadataDto,
   })
   metadata: MetadataDto;
 }
