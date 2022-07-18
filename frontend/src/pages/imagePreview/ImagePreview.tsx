@@ -1,4 +1,5 @@
-import { useState, ReactElement } from "react";
+import { AxiosResponse } from "axios";
+import { useState, ReactElement, useEffect } from "react";
 import { ApiService } from "../../services/api.service";
 
 
@@ -7,12 +8,21 @@ export function ImagePreview(props: { apiService: ApiService }): ReactElement {
   const [currentInput, setCurrentInput] = useState("0");
   const [image, setImage] = useState(null);
   const getImage = async (n: number) => {
-    const image = await props.apiService.getImage(n);
-    setImage(image);
+    props.apiService.getImage(n).then((res: AxiosResponse) => {
+      setImage(res.data);
+    })
   }
 
+  useEffect(() => {
+    console.log('changed image');
+    return () => {
+      console.log('done');
+    }
+  }, [image])
+
+
   const requestHandler = () => {
-    console.log('chaing the request from ', currentInput
+    console.log('changing the request from ', currentInput
     )
     const int = parseInt(currentInput);
     setNumberRequested(int);
@@ -24,8 +34,7 @@ export function ImagePreview(props: { apiService: ApiService }): ReactElement {
     <form>
       <div className="d-flex justify-content-evenly mt-4 mx-4 px-4">
         <div className="mb-3 col-md-5">
-          <label htmlFor="amount" className="form-label">Amount of tokens</label>
-          <div id="amount" className="form-text">Currently requested</div>
+          <div id="amount" className="form-text">Search for: </div>
           <input
             id="amount"
             type="number"

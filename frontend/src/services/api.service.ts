@@ -17,11 +17,11 @@ export class ApiService {
   }
 
   async getImage(id:number): Promise<any>{
-    axios.get(`${this.apiUrl}/file/${id}`).then((res: AxiosResponse) => {
-      console.log('successful image retrieval');
+    axios.get(`${this.apiUrl}file/${id}`).then((res: AxiosResponse) => {
+      console.log('successful image retrieval', res);
       return res.data
     }).catch((error) => {
-      console.error(error);
+      console.error('encountered an error:', error);
     })
   }
 }
