@@ -11,7 +11,7 @@
 ## frontend
 - [x] create a React frontend - 
 - [x] restructure dashboard and Blockchain service to be DRY, it's terrible now
-- [ ] make it work
+- [x] make it work - very hard to do, turns out
 
 ## NFT bit
 - [ ] write Soldity contract with tokens implementing ERC20
@@ -38,3 +38,6 @@
 - ipfs config done, files uploaded
 `ls *.jpg | while read i; do cp template.json ${i:0:(-4)}.json ; done;`
 automated bash command
+
+## 18.07 Monday
+trying to make the contract work
