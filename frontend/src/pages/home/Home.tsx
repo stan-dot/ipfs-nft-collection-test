@@ -16,7 +16,10 @@ export function Home(): ReactElement {
       </div>
       <div className="col-lg-6 mx-auto mt-5">
         <Link to={'/dashboard'}>
-          <button type="button" className="btn btn-primary btn-lg" >Create wallet</button>
+          <button type="button" className="btn btn-primary btn-lg" >Go to dashboard</button>
+        </Link>
+        <Link to={'/img'}>
+          <button type="button" className="btn btn-primary btn-lg" >Preview images</button>
         </Link>
       </div>
     </div>
