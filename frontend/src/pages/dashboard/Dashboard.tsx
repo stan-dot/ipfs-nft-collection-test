@@ -1,6 +1,4 @@
 import { AxiosResponse } from "axios";
-var isCallable = require('is-callable');
-
 import { ethers } from "ethers";
 import { ReactElement, useState } from "react";
 import { ApiService } from '../../services/api.service';
@@ -8,10 +6,10 @@ import { BlockchainService } from '../../services/blockchain.service';
 import { INITIAL_CONTENTS } from "./INITIAL_CONTENTS";
 import { MINIMUM_CONFIRMATIONS } from "./MINIMUM_CONFIRMATIONS";
 import { pendingRequests as PendingRequestsTable } from "./pendingRequests";
-import { WatchedProperty } from "./WatchedProperty";
 import { synchronizedStatus as SynchronizedStatus } from "./synchronizedStatus";
 import { TokenRequestForm } from "./TokenRequestForm";
 import { Tx } from "./Tx.type";
+import { WatchedProperty } from "./WatchedProperty";
 
 export function Dashboard(props: { blockchainService: BlockchainService, apiService: ApiService }): ReactElement {
   const pageContents = INITIAL_CONTENTS;
@@ -23,21 +21,11 @@ export function Dashboard(props: { blockchainService: BlockchainService, apiServ
   let watchPendingTxsInterval: NodeJS.Timeout | null = null;
 
   updateValues();
-  updateVariables();
-  // watchBlockNumber();
   // watchUserBalanceEther();
   // watchContractSupply();
   // watchUserBalanceToken();
-  // watchServerBlock();
+  watchServerBlock();
   watchPendingRequests();
-
-
-  // update functions
-  function updateVariables(): void {
-    // updateEtherBalance();
-    // updateSupply();
-    // updateTokenBalance();
-  }
 
   async function updateValues() {
     for (const property in WatchedProperty) {
@@ -48,27 +36,6 @@ export function Dashboard(props: { blockchainService: BlockchainService, apiServ
       if (itemIndex >= 0) pageContents[itemIndex].value = result;
     }
   }
-
-
-
-  // watch functions
-  // function watchUserBalanceEther() {
-  //   props.blockchainService.watchUserBalanceEther(() => {
-  //     updateEtherBalance();
-  //   });
-  // }
-
-  // function watchContractSupply() {
-  //   props.blockchainService.watchContractSupply(() => {
-  //     updateSupply();
-  //   });
-  // }
-
-  // function watchUserBalanceToken() {
-  //   props.blockchainService.watchUserBalanceToken(() => {
-  //     updateTokenBalance();
-  //   });
-  // }
 
   function watchServerBlock() {
     setInterval(() => {
