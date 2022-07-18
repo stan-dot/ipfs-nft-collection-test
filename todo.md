@@ -15,13 +15,14 @@
 
 ## NFT bit
 - [x] write Soldity contract with tokens implementing ERC20
-- [ ] Deploy NFTCollection contract - with ethers library, should be straightforward 
+- [x] Deploy NFTCollection contract - with ethers library, should be straightforward 
 - [ ] mint 10 NFTs - using script as well
 
 ## blockchain - API connection - caching the blockchain data
 - [x] assign the API endpoint to the token URI
 - [x] Integrate NFT Collection contract and APIs images
 - [ ] Integrate NFT Collection contract and APIs to display NFTs metadata 
+should the Collection contract contain a list of tokens? not sure how to implement
 
 # not for now
 ## frontend extra

@@ -10,8 +10,12 @@ export function ImagePreview(props: { apiService: ApiService }): ReactElement {
   const getImage = async (n: number) => {
     const rawImage = await props.apiService.getImage(n);
     // console.log('res', image);
-    const image = URL.createObjectURL(rawImage);
-    setImage(image);
+    try {
+      const image = URL.createObjectURL(rawImage);
+      setImage(image);
+    } catch (error) {
+      console.error('failed to set the image');
+    }
   }
 
   // useEffect(() => {

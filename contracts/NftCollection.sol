@@ -2,7 +2,7 @@
 pragma solidity ^0.8.4;
 
 import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
-import {NftOwnershipToken} from "./Token.sol";
+import {NftOwnershipToken} from "./NftOwnershipToken.sol";
 
 /// @title A very simple lottery contract
 /// @author Matheus Pagani
@@ -24,7 +24,6 @@ contract LandscapePhotoNftCollection is Ownable {
 
     /// @notice Mapping of prize available for withdraw for each account
     mapping(address => uint256) public prize;
-
 
     /// @notice Constructor function
     /// @param tokenName Name of the token used for payment
