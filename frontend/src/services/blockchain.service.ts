@@ -1,6 +1,7 @@
 import { ethers, EventFilter } from 'ethers';
 import TokenContract from '../assets/contracts/NFTCollection.json';
 import { environment } from '../environments/environment';
+import { WatchedProperty } from '../pages/dashboard/WatchedProperty';
 
 
 export class BlockchainService {
@@ -15,6 +16,29 @@ export class BlockchainService {
       environment.tokenContractAddress,
       TokenContract.abi
     ).connect(this.userWallet);
+  }
+
+  public allInOne(name: WatchedProperty) {
+    switch (name) {
+      case (   WatchedProperty.address):
+        return this.address();
+      case (WatchedProperty.networkName):
+        return this.networkName();
+      case (WatchedProperty.tokenAddress):
+        return this.tokenAddress();
+      case (WatchedProperty.tokenName):
+        return this.tokenName();
+      case (WatchedProperty.symbol):
+        return this.symbol();
+      case (WatchedProperty.supply):
+        return this.supply();
+      case (WatchedProperty.tokenBalance):
+        return this.tokenBalance();
+      case (WatchedProperty.number):
+        return this.number();
+      case (WatchedProperty.etherBalance):
+        return this.etherBalance();
+    }
   }
 
   getProvider() {
