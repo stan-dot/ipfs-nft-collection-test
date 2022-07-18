@@ -1,4 +1,4 @@
-import { ethers, EventFilter } from 'ethers';
+import { ethers } from 'ethers';
 import TokenContract from '../assets/contracts/NFTCollection.json';
 import { environment } from '../environments/environment';
 import { WatchedProperty } from '../pages/dashboard/WatchedProperty';

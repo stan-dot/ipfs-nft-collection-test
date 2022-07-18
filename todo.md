@@ -15,8 +15,9 @@
 
 ## NFT bit
 - [ ] write Soldity contract with tokens implementing ERC20
+- [ ] use the scripts to deploy (will need API keys), then check on etherscan
 - [ ] Deploy NFTCollection contract - with ethers library, should be straightforward 
-- [ ] mint 10 NFTs
+- [ ] mint 10 NFTs - using script as well
 
 ## blockchain - API connection - caching the blockchain data
 - [ ] assign the API endpoint to the token URI
