@@ -11,6 +11,8 @@ import { concat as uint8ArrayConcat } from 'uint8arrays/concat';
 
 const DB_PATH = '../db/db.json';
 
+// ropsten  0xE6b9B462EEB34E8a6AfB5e48e1a559B74efcb185
+// https://ropsten.etherscan.io/address/0xE6b9B462EEB34E8a6AfB5e48e1a559B74efcb185
 @Injectable()
 export class AppService {
   db: JsonDB;

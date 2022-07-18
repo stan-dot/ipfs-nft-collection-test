@@ -19,8 +19,9 @@
 - [ ] mint 10 NFTs - using script as well
 
 ## blockchain - API connection - caching the blockchain data
-- [ ] assign the API endpoint to the token URI
-- [ ] Integrate NFT Collection contract and APIs to display NFTs metadata and images
+- [x] assign the API endpoint to the token URI
+- [x] Integrate NFT Collection contract and APIs images
+- [ ] Integrate NFT Collection contract and APIs to display NFTs metadata 
 
 # not for now
 ## frontend extra
