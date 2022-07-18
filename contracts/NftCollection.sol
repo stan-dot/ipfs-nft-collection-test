@@ -25,6 +25,7 @@ contract LandscapePhotoNftCollection is Ownable {
     /// @notice Mapping of prize available for withdraw for each account
     mapping(address => uint256) public prize;
 
+
     /// @notice Constructor function
     /// @param tokenName Name of the token used for payment
     /// @param tokenSymbol Symbol of the token used for payment

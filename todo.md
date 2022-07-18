@@ -14,8 +14,7 @@
 - [x] make it work - very hard to do, turns out
 
 ## NFT bit
-- [ ] write Soldity contract with tokens implementing ERC20
-- [ ] use the scripts to deploy (will need API keys), then check on etherscan
+- [x] write Soldity contract with tokens implementing ERC20
 - [ ] Deploy NFTCollection contract - with ethers library, should be straightforward 
 - [ ] mint 10 NFTs - using script as well
 
@@ -23,6 +22,7 @@
 - [ ] assign the API endpoint to the token URI
 - [ ] Integrate NFT Collection contract and APIs to display NFTs metadata and images
 
+# not for now
 ## frontend extra
 - [ ] provide wallet functions in the frontend to buy, transfer, allow, transfer from and burn NFTs
 - [ ] Implement a feature for importing a wallet by pasting a seed phrase of private key as an alternative to creating a new one
