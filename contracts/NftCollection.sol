@@ -22,8 +22,8 @@ contract LandscapePhotoNftCollection is Ownable {
     /// @notice Amount of tokens in the owner pool
     uint256 public ownerPool;
 
-    /// @notice Mapping of prize available for withdraw for each account
-    mapping(address => uint256) public prize;
+    /// @notice Mapping of tokens to ipfs links
+    mapping(NftOwnershipToken => string) public prize;
 
     /// @notice Constructor function
     /// @param tokenName Name of the token used for payment
