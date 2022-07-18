@@ -6,19 +6,20 @@ import { ApiService } from "../../services/api.service";
 export function ImagePreview(props: { apiService: ApiService }): ReactElement {
   const [numberRequested, setNumberRequested] = useState(0);
   const [currentInput, setCurrentInput] = useState("0");
-  const [image, setImage] = useState(null);
+  const [image, setImage] = useState('');
   const getImage = async (n: number) => {
-    props.apiService.getImage(n).then((res: AxiosResponse) => {
-      setImage(res.data);
-    })
+    const rawImage = await props.apiService.getImage(n);
+    // console.log('res', image);
+    const image = URL.createObjectURL(rawImage);
+    setImage(image);
   }
 
-  useEffect(() => {
-    console.log('changed image');
-    return () => {
-      console.log('done');
-    }
-  }, [image])
+  // useEffect(() => {
+  //   console.log('changed image');
+  //   return () => {
+  //     console.log('done');
+  //   }
+  // }, [image])
 
 
   const requestHandler = () => {
